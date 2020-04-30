@@ -2,28 +2,41 @@
 
 @font-face {
   font-family: "Comic-Neue";
-  src: url("../assets/fonts/Comic_Neue/ComicNeue-Regular.ttf") format("ttf");
+  src: url("/assets/fonts/Comic_Neue/ComicNeue-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Comic-Neue";
-  src: url("../assets/fonts/Comic_Neue/ComicNeue-Light.ttf") format("ttf");
+  src: url("/assets/fonts/Comic_Neue/ComicNeue-Light.woff2") format("woff2");
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Comic-Neue";
-  src: url("../assets/fonts/Comic_Neue/ComicNeue-Bold.ttf") format("ttf");
+  src: url("/assets/fonts/Comic_Neue/ComicNeue-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Batman-Forever";
-  src: url("../assets/fonts/Batman_Forever/batmfa__.ttf") format("ttf");
+  font-family: "Batman-Outline";
+  src: url("/assets/fonts/Batman_Forever/batmfo__.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Batman-Alternate";
+  src: url("/assets/fonts/Batman_Forever/batmfa__.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Batman-Outline";
+  color: red;
+  font-size: 24px;
 }
