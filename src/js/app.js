@@ -1,2 +1,1 @@
-let $title = document.getElementsByTagName("h1");
-console.log($title.offsetColor);
+console.log("coucou");

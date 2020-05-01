@@ -1,13 +1,13 @@
+// Import helpers
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
 // Import base
 @import "./base/reset";
 @import "./base/utilities";
 @import "./base/animations";
 @import "./base/typographie";
 @import "./base/fonts";
-
-// Import helpers
-@import "./helpers/mixins";
-@import "./helpers/variables";
 
 // Import components
 @import "./components/buttons";

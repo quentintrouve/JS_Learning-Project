@@ -8,5 +8,12 @@ img {
 
 a {
   text-decoration: none;
-  color: inherit;
+}
+
+body {
+  background-color: $black;
+}
+
+.logo {
+  fill: $purple;
 }
